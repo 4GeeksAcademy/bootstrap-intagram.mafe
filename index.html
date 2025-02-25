@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Instagram Feed with Bootstrap</title>
+    <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+        <div class="container-fluid">
+            
+            <i class="fa-brands fa-instagram fa-xl"></i>
+                    <h5 class="d-inline-block fs-5">Instagram</h5>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button type="button" class="btn btn-success ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a New Post
+                </button>
+                <div class="dropdown-center me-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+
+                    </ul>
+                </div>
+                
+
+            </div>
+        </div>
+    </nav>
+
+    <ul class="nav nav-tabs nav justify-content-center" id="myTab" role="tablist">
+      
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+            <i class="fa-solid fa-table-cells"></i>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+            <i class="fa-solid fa-square"></i>
+          </button>
+        </li>
+        
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><div class="container text-center">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <img class="img-fluid" src="https://picsum.photos/200" alt="random pic"/>
+            </div>
+
+            
+          </div>
+        </div></div>
+
+
+        <div class="tab-pane fade " id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+          <div class="container d-flex flex-column align-items-center">
+          <div class="card bg-white my-2 " style="width: 18rem;">
+            <div class="d-flex justify-content-between align-items-center p-2">
+              <div class=" fs-6">My Crazy dog Spark!</div>
+              <div class=" ">08/26</div>
+          </div>
+         <img src="https://picsum.photos/200" class="img-fluid" alt="...">
+         <div class="card-body">
+    
+           <p class="card-text">204 likes</p>
+            <p class="card-text">This is an example of a very good photo that you can post on instagram</p>
+    
+          </div>
+        </div>
+        
+      </div>
+      <div class="container d-flex flex-column align-items-center">
+        <div class="card bg-white my-2 " style="width: 18rem;">
+          <div class="d-flex justify-content-between align-items-center p-2">
+            <div class=" fs-6">My Crazy dog Spark!</div>
+            <div class=" ">08/26</div>
+        </div>
+       <img src="https://picsum.photos/200" class="img-fluid" alt="...">
+       <div class="card-body">
+  
+         <p class="card-text">204 likes</p>
+          <p class="card-text">This is an example of a very good photo that you can post on instagram</p>
+  
+        </div>
+      </div>
+      
+    </div>
+    <div class="container d-flex flex-column align-items-center">
+      <div class="card bg-white my-2 " style="width: 18rem;">
+        <div class="d-flex justify-content-between align-items-center p-2">
+          <div class=" fs-6">My Crazy dog Spark!</div>
+          <div class=" ">08/26</div>
+      </div>
+     <img src="https://picsum.photos/200" class="img-fluid" alt="...">
+     <div class="card-body">
+
+       <p class="card-text">204 likes</p>
+        <p class="card-text">This is an example of a very good photo that you can post on instagram</p>
+
+      </div>
+    </div>
+    
+  </div>
+      
+        </div>
+        
+      </div>
+
+
+
+      
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <h6>Caption:</h6>
+                    <textarea class="form-control" placeholder="Add the caption of your post here"
+                        id="floatingTextarea2"></textarea>
+                    <div class="row p-2">
+                        <button class="col-1 border rounded p-1 m-1 btn-light">
+                            <i class="fa-solid fa-camera"></i>
+                        </button>
+                        <button class="col-1 border rounded p-1 m-1 btn-light">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
